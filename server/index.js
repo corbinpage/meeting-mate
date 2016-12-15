@@ -58,6 +58,8 @@ export const createServer = (config) => {
 
   app.use(express.static('public'))
   app.use('/api/v0/posts', require('./api/posts'))
+  app.use('/api/v0/meetings', require('./api/meetings'))
+  app.use('/api/v0/call', require('./api/twilio'))
 
 
   app.get('*', (req, res) => {

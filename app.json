@@ -1,9 +1,20 @@
 {
-  "name": "react-production-starter",
+  "name": "meeting-mate",
   "scripts": {
   },
   "env": {
-
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio account secret ID, you can find at: https://www.twilio.com/user/account",
+      "value": "ACfe01901e2beba9a4481f0c8f7fc34593"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your secret Twilio Auth token, you can find at: https://www.twilio.com/user/account",
+      "value": "2c910bcc8f477707b422eae18e4ebdca"
+    },
+    "TWILIO_NUMBER": {
+      "description": "The Twilio phone number you are using for this app. You can get one here: https://www.twilio.com/user/account/phone-numbers/incoming",
+      "value": "+15005550006"
+    }
   },
   "addons": [
 
